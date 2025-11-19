@@ -19,7 +19,7 @@ A rework of Robik with updated features, bug fixes, and improved design.
 
 ## Userscripts / Tools
 
-### YouTube Cosmetic US Mode
+### [YouTube Cosmetic US Mode](https://github.com/zappingsbrew/youtube-usmode)
 A Tampermonkey userscript that gives YouTube a U.S.-style look by hiding regional country codes under the logo.
 [View Script / Repo](https://github.com/zappingsbrew/youtube-usmode)
 
