@@ -1,0 +1,195 @@
+:root {
+    /* spacing scale */
+    --xs: 8px;
+    --s: 16px;
+    --m: 24px;
+    --l: 32px;
+    --xl: 48px;
+    --xxl: 64px;
+
+    /* colors */
+    --bg: #ffffff;
+    --text: #000000;
+    --subtext: #777;
+    --primary: #0000d0;
+    --primary-hover: #0000a8;
+
+    /* typography */
+    --font: "Quicksand", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* ---------------------------------- */
+/* CONTAINERS */
+/* ---------------------------------- */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 var(--m);
+}
+
+.container.narrow {
+    max-width: 750px;
+}
+
+/* ---------------------------------- */
+/* HEADER */
+/* ---------------------------------- */
+
+.site-header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: var(--m);
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+}
+
+/* ---------------------------------- */
+/* HERO */
+/* ---------------------------------- */
+
+.hero {
+    padding: var(--xxl) 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* 40px */
+    margin-bottom: var(--s);
+}
+
+.hero p {
+    font-size: 1.125rem; /* 18px */
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: var(--m);
+}
+
+.hero-buttons .btn {
+    margin: 0 var(--xs);
+}
+
+/* ---------------------------------- */
+/* BUTTONS */
+/* ---------------------------------- */
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn.primary {
+    background: var(--primary);
+    color: #fff;
+}
+
+.btn.primary:hover {
+    background: var(--primary-hover);
+}
+
+.btn.secondary {
+    background: #f2f2f2;
+    color: #000;
+}
+
+/* ---------------------------------- */
+/* FEATURES */
+/* ---------------------------------- */
+
+.features {
+    padding: var(--xl) 0;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: var(--l);
+    font-size: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--m);
+}
+
+.card {
+    background: #f9f9f9;
+    padding: var(--m);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-img {
+    background: #ddd;
+    height: 120px;
+    border-radius: 6px;
+    margin-bottom: var(--s);
+}
+
+/* ---------------------------------- */
+/* DOWNLOAD */
+/* ---------------------------------- */
+
+.download {
+    padding: var(--xl) 0;
+    background: #f5f5f5;
+}
+
+.requirements {
+    margin: var(--m) 0;
+    padding-left: var(--m);
+}
+
+/* ---------------------------------- */
+/* FAQ */
+/* ---------------------------------- */
+
+.faq {
+    padding: var(--xl) 0;
+}
+
+details {
+    background: #f3f3f3;
+    padding: var(--s);
+    margin-bottom: var(--s);
+    border-radius: 6px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* ---------------------------------- */
+/* CREDITS */
+/* ---------------------------------- */
+
+.credits {
+    padding: var(--l) 0;
+    text-align: center;
+    background: #fafafa;
+    font-size: 14px;
+}
