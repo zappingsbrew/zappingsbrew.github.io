@@ -13,7 +13,7 @@ A modern fork of the popular Mondtholomew skin, with updated features, bug fixes
 
 ### [Roblux](https://github.com/zappingsbrew/robux)
 A rework of Robik with updated features, bug fixes, and improved design.
-[View Repository](https://github.com/zappingsbrew/robux)
+[View Repository](https://github.com/zappingsbrew/roblux)
 
 ---
 
