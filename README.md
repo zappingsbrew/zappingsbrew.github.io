@@ -25,14 +25,6 @@ A Tampermonkey userscript that gives YouTube a U.S.-style look by hiding regiona
 
 ---
 
-## Demos / Experiments
-
-### [Demo Name](./demo-folder)
-Short description of your demo project.  
-[View Site](https://zappingsbrew.github.io/demo-folder)
-
----
-
 ## About
 This is a minimal project hub repository. Each project has its own GitHub Pages subsite or repo.  
 Projects are organized by type for easier browsing.
